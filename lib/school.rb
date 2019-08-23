@@ -1,13 +1,11 @@
 # code here!
 class School
-  attr_reader :roster 
-  attr_accessor :roster
   def initialize(school_name)
     @school_name = school_name
+    @roster = {}
   end
-  ROSTER = {}
   def add_student(student, grade)
-    unless ROSTER.include?(grade)
+    unless .include?(grade)
       ROSTER[grade] = []
     end
     ROSTER[grade] << student
