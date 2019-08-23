@@ -4,8 +4,8 @@ class School
   attr_accessor :roster
   def initialize(school_name)
     @school_name = school_name
-    ROSTER = {}
   end
+  ROSTER = {}
   def add_student(student, grade)
     unless ROSTER.include?(grade)
       ROSTER[grade] = []
