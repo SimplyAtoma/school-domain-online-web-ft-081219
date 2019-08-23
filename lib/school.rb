@@ -17,6 +17,6 @@ class School
   end 
   
   def sort 
-    
+    roster.each 
   end
 end
