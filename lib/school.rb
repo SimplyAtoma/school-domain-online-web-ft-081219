@@ -6,13 +6,13 @@ class School
   end
   def add_student(student, grade)
     unless .include?(grade)
-      ROSTER[grade] = []
+      @roster[grade] = []
     end
-    ROSTER[grade] << student
+    @roster[grade] << student
   end 
   
   def grade(grade)
-    ROSTER[grade]
+    @roster[grade]
   end 
   
   def sort 
