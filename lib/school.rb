@@ -17,10 +17,6 @@ class School
   end 
   
   def sort 
-    roster.each do |grade|
-      holder = grade(grade)
-      holder.sort 
-      roster[grade] = holder
-    end
+      
   end
 end
