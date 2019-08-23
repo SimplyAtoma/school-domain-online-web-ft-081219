@@ -18,7 +18,7 @@ class School
   
   def sort 
     roster.each do |key|
-      puts roster[key]
+      puts roster[:key]
     end
   end
 end
